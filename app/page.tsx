@@ -22,7 +22,7 @@ export default function Home() {
         {profiles.map((profile) => (
           <div key={profile.id} className="p-4 border rounded shadow">
             <h2 className="text-xl font-semibold">{profile.name}</h2>
-            {/* Additional profile information here */}
+            {/* information */}
           </div>
         ))}
       </div>
