@@ -1,16 +1,10 @@
 import { useState } from 'react';
 
-
-const profiles = [
-  { id: 1, name: 'User One' },
-  { id: 2, name: 'User Two' },
-];
-
 export default function Home() {
-  // State to hold the like count
+
   const [likes, setLikes] = useState(0);
 
-  // Function to handle likes increment
+ 
   const handleLike = () => {
     setLikes((prevLikes) => prevLikes + 1);
   };
@@ -34,4 +28,4 @@ export default function Home() {
       </div>
     </div>
   );
-}
+} use client
